@@ -3,7 +3,7 @@ const path = require("path");
 
 module.exports = {
 	entry: "./src/js/mytime/main.js",
-	mode: "development",
+	mode: "production",
 	// devtool: "source-map",
 	output: {
 		path: path.resolve(__dirname, "dist/js/mytime"),

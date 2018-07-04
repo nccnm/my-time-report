@@ -11,6 +11,10 @@ class PageController {
 		return false;
 	}
 
+	static isLoadingData() {
+		return !!document.querySelector(".blockUI");
+	}
+
 	static injectContainerElement() {
 		if (this.isElementExists()) return;
 
